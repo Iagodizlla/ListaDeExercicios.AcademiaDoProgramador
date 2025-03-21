@@ -12,38 +12,13 @@
             Console.Write("Valor 3: ");
             int v3 = int.Parse(Console.ReadLine()!);
 
-            if (v1 > v2 && v1 > v3)
+            int[] v4 = { v1, v2, v3};
+            Array.Sort(v4);
+            Array.Reverse(v4);
+
+            for (int i = 0; i < v4.Length;i++)
             {
-                if(v2 > v3)
-                {
-                    Console.WriteLine($"{v3}, {v2}, {v1}");
-                }
-                else
-                {
-                    Console.WriteLine($"{v2}, {v3}, {v1}");
-                }
-            }
-            else if (v2 > v1 && v2 > v3)
-            {
-                if (v1 > v3)
-                {
-                    Console.WriteLine($"{v3}, {v1}, {v2}");
-                }
-                else
-                {
-                    Console.WriteLine($"{v1}, {v3}, {v2}");
-                }
-            }
-            else
-            {
-                if( v1 > v2)
-                {
-                    Console.WriteLine($"{v2}, {v1}, {v3}");
-                }
-                else
-                {
-                    Console.WriteLine($"{v1}, {v2}, {v3}");
-                }
+                Console.Write($" {v4[i]}");
             }
             Console.ReadLine();
         }
