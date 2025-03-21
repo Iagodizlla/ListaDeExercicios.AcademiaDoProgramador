@@ -6,13 +6,15 @@
         encontram no conjunto dos números de 1 até 500.*/
         static void Main(string[] args)
         {
+            int n = 0;
             for (int i = 1; i < 500; i++)
             {
                 if (i % 2 == 1 && i % 3 == 0)
                 {
-                    Console.WriteLine(i);
+                    n+= i;
                 }
             }
+            Console.WriteLine(n);
             Console.ReadLine();
         }
     }
