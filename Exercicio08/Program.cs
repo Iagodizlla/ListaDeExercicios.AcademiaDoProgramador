@@ -18,7 +18,7 @@
                 }
             }
 
-            if(cont == 1 || n == 1)
+            if(cont == 1)
             {
                 Console.WriteLine("E um numero primo!");
             }
