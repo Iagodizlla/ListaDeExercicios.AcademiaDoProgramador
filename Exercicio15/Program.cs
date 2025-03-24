@@ -19,7 +19,8 @@
             Console.Write("Qual sua altura(cm): ");
             double altura = double.Parse(Console.ReadLine()!);
 
-            double IMC = Math.Pow(peso / altura, 2);
+            double IMC = Math.Pow(peso / altura, 2)*100;
+
 
             if(IMC < 18.5)
             {
