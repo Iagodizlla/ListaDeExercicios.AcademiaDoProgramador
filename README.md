@@ -4,6 +4,12 @@
 
 Uma lista de 23 exercicios com funções diversas.
 
+---
+## Tecnologias
+
+[![Tecnologias](https://skillicons.dev/icons?i=git,github,cs,dotnet,visualstudio)](https://skillicons.dev)
+
+---
 ## Como utilizar
 
 1. Clone o repositório ou baixe o código fonte.
