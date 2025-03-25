@@ -19,7 +19,7 @@
             Console.Write("Qual sua altura(cm): ");
             double altura = double.Parse(Console.ReadLine()!);
 
-            double IMC = Math.Pow(peso / altura, 2)*100;
+            double IMC = (peso / Math.Pow(altura, 2))*10000;
 
 
             if(IMC < 18.5)
@@ -38,6 +38,7 @@
             {
                 Console.WriteLine("Obeso");
             }
+            //Console.WriteLine(IMC);
             Console.ReadLine();
         }
     }
