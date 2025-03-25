@@ -19,7 +19,7 @@
             }
 
             double MH = 4 / nota2;
-            Console.WriteLine($"Media Harmonica: {MH}");
+            Console.WriteLine($"Media Harmonica: {MH:F2}");
             Console.ReadLine();
         }
     }

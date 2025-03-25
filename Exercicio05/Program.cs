@@ -14,7 +14,7 @@
             double PC = double.Parse(Console.ReadLine()!);
 
             double SF = SB + ((PC / 100) * TV);
-            Console.WriteLine($"Salario Final {SF}");
+            Console.WriteLine($"Salario Final {SF:F2}");
             Console.ReadLine();
         }
     }

@@ -21,7 +21,7 @@
             {
                 c = a * b;
             }
-            Console.WriteLine(c);
+            Console.WriteLine($"{c:F2}");
             Console.ReadLine();
         }
     }

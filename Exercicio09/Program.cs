@@ -12,7 +12,7 @@
             double largura = double.Parse(Console.ReadLine()!);
 
             double area = largura * comprimento;
-            Console.WriteLine($"Area do terreno: {area} metros quadrados");
+            Console.WriteLine($"Area do terreno: {area:F2} metros quadrados");
         }
     }
 }

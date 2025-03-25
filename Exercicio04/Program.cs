@@ -9,7 +9,7 @@
             double GC = double.Parse(Console.ReadLine()!);
 
             double GF = GC * 1.8 + 32;
-            Console.WriteLine($"Isso equivale a {GF} Graus Fahrenheit");
+            Console.WriteLine($"Isso equivale a {GF:F2} Graus Fahrenheit");
             Console.ReadLine();
         }
     }

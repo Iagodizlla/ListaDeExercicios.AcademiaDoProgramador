@@ -13,7 +13,7 @@
             int p2 = int.Parse(Console.ReadLine()!);
 
             double MP = (p1 * n1 + p2 * n2) / p1 + p2;
-            Console.WriteLine($"Media Ponderada: {MP}");
+            Console.WriteLine($"Media Ponderada: {MP:F2}");
             Console.ReadLine();
         }
     }

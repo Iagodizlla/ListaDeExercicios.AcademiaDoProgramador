@@ -17,7 +17,7 @@
             double ComG = double.Parse(Console.ReadLine()!);
 
             double ComKm = (kmF - kmI) / ComG;
-            Console.WriteLine($"O carro gasta {ComKm} de combustivel por km");
+            Console.WriteLine($"O carro gasta {ComKm:F2} de combustivel por km");
             Console.ReadLine();
         }
     }

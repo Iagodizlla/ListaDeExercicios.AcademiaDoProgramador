@@ -14,8 +14,8 @@
 
             Console.WriteLine("---------------");
             Console.WriteLine($"Salario inicial: {sa}");
-            Console.WriteLine($"Salario com aumento: {au}");
-            Console.WriteLine($"Salario final: {de}");
+            Console.WriteLine($"Salario com aumento: {au:F2}");
+            Console.WriteLine($"Salario final: {de:F2}");
             Console.ReadLine();
         }
     }

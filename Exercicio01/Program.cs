@@ -13,7 +13,7 @@
             double comprimento = double.Parse(Console.ReadLine()!);
 
             double volume = altura * largura * comprimento;
-            Console.WriteLine($"Volume: {volume}(cm cubinos)");
+            Console.WriteLine($"Volume: {volume:F2}(cm cubinos)");
             Console.ReadLine();
         }
     }

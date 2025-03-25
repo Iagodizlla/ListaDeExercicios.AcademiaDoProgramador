@@ -20,9 +20,9 @@
             Console.WriteLine("----------------------------");
             Console.WriteLine("Arrecadacao");
             Console.WriteLine("----------------------------");
-            Console.WriteLine($"Pães: R${qp}");
-            Console.WriteLine($"Broas: R${qb}");
-            Console.WriteLine($"Guardar na poupanca: R${gp}");
+            Console.WriteLine($"Pães: R${qp:F2}");
+            Console.WriteLine($"Broas: R${qb:F2}");
+            Console.WriteLine($"Guardar na poupanca: R${gp:F2}");
             Console.ReadLine();
         }
     }
